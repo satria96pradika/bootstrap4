@@ -1,0 +1,45 @@
+.btn-primary {
+    background: #FF9900;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: rgb(230, 138, 0);
+    border: none;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #FF9900;
+    padding: 10px 25px 10px 25px;
+    font-size: 16;
+    font-weight: bold;
+    color: #FF9900;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid rgb(230, 138, 0);
+    color: rgb(230, 138, 0);
+}
+
+.herosat h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.herosat p {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-primary,
+    .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+}
